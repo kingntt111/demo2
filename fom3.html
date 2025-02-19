@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        to-bottom {
+    position: absolute;
+    color: red;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#wp-products {
+    padding-top: 116px;
+    padding-bottom:78px;
+    padding-left:134px ;
+    padding-right: 134px;
+}
+
+#wp-products h2 {
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color: #626a67;
+}
+
+#list-products {
+    display:flex ;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#list-products .item {
+    width: 290px;
+    height: 374px;
+    background: #362f2f;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+#list-products .item img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 13px;
+}
+
+#list-products .item .stars {
+    display:  flex;
+}
+
+#list-products .item .name {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 21px;
+
+}
+
+#list-products .item .desc {
+    text-align: center;
+    color: #00bdad;  
+}
+
+#list-products .item .price {
+    text-align: center;
+    color: #f42424;
+    font-weight: bold;
+}
+
+.list-page {
+    width: 50%;
+    margin: 0px auto;
+}
+
+
+.list-page {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-page .item {
+    margin: 0px 15px;
+    width: 37px;
+    height: 37px;
+    background: #0cc6cc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-page .item a{
+    color:#fff ;
+    text-decoration: none;
+}
+
+
+#saleoff {
+    width: 120%;
+    display: flex;
+    height: 352px;
+}
+    </style>
+    <ul id="list-products">
+        <div class="item">
+            <a href="fom1.html"><img src="chè thái.jpg" alt=""width="280px" height="220px"></a>
+             <div class="star">
+                <span>
+                   <img src="star.jpg" alt=""width="150px" height="30px">
+                </span>
+             </div>
+
+             <div class=" name">Chè thái</div>
+             <div class="desc">Tươi mát, béo ngậy</div>
+             <div class="price">60.000 VNĐ</div>
+        </div>
+        <div class="item">
+            <a href="fom1.html"><img src="pudding.jpg" alt=""width="280px" height="220px"></a>
+            <div class="star">
+               <span>
+                  <img src="star.jpg" alt=""width="150px" height="30px">
+               </span>
+            </div>
+
+            <div class=" name">Bánh Pudding</div>
+            <div class="desc">Béo mịn, nún nính, thơm ngon</div>
+            <div class="price">50.000 VNĐ</div>
+       </div>
+       <div class="item">
+        <a href="fom1.html"><img src="yaourt.jpg" alt=""width="280px" height="220px"></a>
+        <div class="star">
+           <span>
+              <img src="star.jpg" alt=""width="150px" height="30px">
+           </span>
+        </div>
+
+        <div class=" name">yaourt</div>
+        <div class="desc">béo thơm, tốt cho hệ tiêu hóa</div>
+        <div class="price">50.000 VNĐ</div>
+   </div>
+</body>
+</html>
